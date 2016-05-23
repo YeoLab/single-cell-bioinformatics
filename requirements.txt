@@ -1,5 +1,4 @@
 fastcluster
 seaborn
 patsy
-GPy
-ipywidgets
+ipywidgets==4.1.0
