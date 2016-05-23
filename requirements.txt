@@ -1,2 +1,4 @@
 fastcluster
+seaborn
 GPy
+patsy
