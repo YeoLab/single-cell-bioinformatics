@@ -1,0 +1,6 @@
+jupyter
+ipywidgets==4.1.0
+seaborn
+scikit-learn
+six
+patsy
