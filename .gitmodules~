@@ -4,4 +4,7 @@
 
 [submodule "1._Introduction+Dealing_with_technical_noise/combat_py"]
 	path = 1._Introduction+Dealing_with_technical_noise/combat_py
-	url = git@github.com:brentp/combat.py
+	url = https://github.com/brentp/combat.py
+[submodule "sklearn_tutorial"]
+	path = sklearn_tutorial
+	url = https://github.com/jakevdp/sklearn_tutorial
