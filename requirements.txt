@@ -2,3 +2,5 @@ fastcluster
 seaborn
 patsy
 ipywidgets==4.1.0
+GPy
+goatools
