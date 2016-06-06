@@ -18,7 +18,7 @@ bash miniconda.sh -b -p $HOME/miniconda
 ```
 export PATH="$HOME/miniconda/bin:$PATH"
 ```
-- 4. Add R and [Bioconda](bioconda.github.io) channels
+- 4. Add R and [Bioconda](https://bioconda.github.io) channels
 ```
 conda config --add channels r
 conda config --add channels bioconda
