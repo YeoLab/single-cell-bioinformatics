@@ -4,6 +4,3 @@
 [submodule "sklearn_tutorial"]
 	path = sklearn_tutorial
 	url = https://github.com/jakevdp/sklearn_tutorial
-[submodule "4._Case_Study/macaulay2016"]
-	path = 4._Case_Study/macaulay2016
-	url = https://github.com/Teichlab/spectrum-of-differentiation-supplements
