@@ -1,3 +1,12 @@
 [submodule "sklearn_tutorial"]
 	path = sklearn_tutorial
 	url = https://github.com/jakevdp/sklearn_tutorial
+[submodule "data/shalek2013"]
+	path = data/shalek2013
+	url = https://github.com/yeolab/shalek2013
+[submodule "data/macaulay2016"]
+	path = data/macaulay2016
+	url = https://github.com/Teichlab/spectrum-of-differentiation-supplements
+[submodule "notebooks/combat_py"]
+	path = notebooks/combat_py
+	url = https://github.com/brentp/combat.py
