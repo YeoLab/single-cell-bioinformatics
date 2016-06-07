@@ -69,4 +69,4 @@ target/
 .idea
 
 # Shalek2013 data
-GSE41265_allGenesTPM.txt 
+GSE41265_allGenesTPM.txt*
