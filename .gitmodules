@@ -10,3 +10,6 @@
 [submodule "notebooks/combat_py"]
 	path = notebooks/combat_py
 	url = https://github.com/brentp/combat.py
+[submodule "pandas_tutorial"]
+	path = pandas_tutorial
+	url = https://github.com/TomAugspurger/PyDataSeattle
