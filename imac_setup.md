@@ -33,11 +33,22 @@ mkdir -p ~/genomes/mm10/gencode/m8/
 cd ~/genomes/mm10/gencode/m8/
 scp -r obotvinnik@tscc.sdsc.edu:/projects/ps-yeolab/biom262-2016/genomes/mm10/gencode/m8/star_chr11 . 
 ```
-- 7. Make `shalek2013` project
+- 7. Download subset of GENCODE annotation
+```
+cd ~/genomes/mm10/gencode/m8/
+scp -r obotvinnik@tscc.sdsc.edu:/projects/ps-yeolab/biom262-2016/genomes/mm10/gencode/m8/gencode.vM8.basic.annotation.chr11.gtf
+```
+- 8. Make `shalek2013` project
 ```
 mkdir -p ~/projects/shalek2013/raw_data ~/projects/shalek2013/processed_data ~/projects/shalek2013/scripts
 ```
-- 8. Download `shalek2013` data subset of just chr11 for one sample
+- 9. Download `shalek2013` data subset of just chr11 for one sample
 ```
 cd ~/projects/shalek2013/raw_data
+scp obotvinnik@tscc.sdsc.edu:/home/obotvinnik/projects/shalek2013/processed_data/S10.chr11.R1.fastq .
+scp obotvinnik@tscc.sdsc.edu:/home/obotvinnik/projects/shalek2013/processed_data/S10.chr11.R2.fastq .
+```
+- 10. Download gzip of all the data
+```
+curl https://s3-us-west-2.amazonaws.com/single-cell-bioinformatics/single-cell-bioinformatics-data.gz > data.gz
 ```
