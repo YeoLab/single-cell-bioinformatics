@@ -14,6 +14,8 @@ Where you cannot run or edit code, but view all the content
 
 
 ## 3. Set this up on your own computer
+
+* 0. If you're using Windows, install [git](https://msysgit.github.io/)
 * 1. Install [Miniconda](http://conda.pydata.org/miniconda.html) with Python 3. Command line instructions for mac and linux are shown below.
 ```
 # Mac OS X
