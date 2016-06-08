@@ -39,3 +39,7 @@ tar xzvf single-cell-bioinformatics-data.tar.gz
 ```
 mv single-cell-bioinformatics-data/* ~/
 ```
+- 8. Remove the empty `single-cell-bioinformatics-data` folder
+```
+rm -rf single-cell-bioinformatics-data
+```
