@@ -2,7 +2,7 @@
 
 # single-cell-bioinformatics
 
-Course material in notebook format for learning about single cell bioinformatics methods. To view this material, you have two options:
+Course material in notebook format for learning about single cell bioinformatics methods. To view this material, you have several options:
 
 ## 1. View the [live version](http://mybinder.org/repo/YeoLab/single-cell-bioinformatics) 
 
