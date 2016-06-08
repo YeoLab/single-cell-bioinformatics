@@ -8,7 +8,7 @@ This document sets up fresh iMacs with no bioinformatics tools to be ready for r
 
 - 1. Start downloading a gzip of all the data
 ```
-curl https://s3-us-west-2.amazonaws.com/single-cell-bioinformatics/single-cell-bioinformatics-data.tar.gz > single-cell-bioinformatics-data.tar.gz
+curl https://s3-us-west-2.amazonaws.com/single-cell-bioinformatics/data.tar.gz > single-cell-bioinformatics-data.tar.gz
 ```
 - 2. Open a new tab and download latest Miniconda for Python3 and save as `miniconda.sh`
 ```
