@@ -37,5 +37,5 @@ tar xzvf single-cell-bioinformatics-data.tar.gz
 ```
 - 7. Move everything in the `single-cell-bioinformatics` folder down to the home folder
 ```
-mv single-cell-bioinformatics/* ~/
+mv single-cell-bioinformatics-data/* ~/
 ```
