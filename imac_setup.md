@@ -35,7 +35,11 @@ conda install --yes STAR samtools subread
 ```
 mkdir -p ~/genomes/mm10/gencode/m8/ ~/projects/shalek2013/raw_data ~/projects/shalek2013/processed_data ~/projects/shalek2013/scripts
 ```
-- 7. Unzip the data. This contains all the necessary folders as well.
+- 7. Unzip the data. This creates a folder called `single-cell-bioinformatics`
 ```
 tar xzvf single-cell-bioinformatics-data.tar.gz
+```
+- 8. Move everything in the `single-cell-bioinformatics` folder down to the home folder
+```
+mv single-cell-bioinformatics/* ~/
 ```
