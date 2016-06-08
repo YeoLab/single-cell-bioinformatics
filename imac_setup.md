@@ -29,7 +29,7 @@ conda config --add channels bioconda
 ```
 - 5. Install Bioinformatics packages
 ```
-conda install --yes STAR samtools subread
+conda install --yes STAR samtools subread bedtools cutadapt
 ```
 - 6. Make all the folders
 ```
