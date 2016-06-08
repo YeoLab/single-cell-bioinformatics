@@ -44,4 +44,8 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
+## Implementations of this class
+
+* [SCRM 2016](https://github.com/YeoLab/single-cell-bioinformatics-scrm-2016)
+
 
