@@ -35,22 +35,7 @@ conda install --yes STAR samtools subread
 ```
 mkdir -p ~/genomes/mm10/gencode/m8/ ~/projects/shalek2013/raw_data ~/projects/shalek2013/processed_data ~/projects/shalek2013/scripts
 ```
-- 7. Unzip the data
+- 7. Unzip the data. This contains all the necessary folders as well.
 ```
 tar xzvf single-cell-bioinformatics-data.tar.gz
-```
-- 8. Download subset of GENCODE annotation
-```
-cd ~/genomes/mm10/gencode/m8/
-scp -r obotvinnik@tscc.sdsc.edu:/projects/ps-yeolab/biom262-2016/genomes/mm10/gencode/m8/gencode.vM8.basic.annotation.chr11.gtf
-```
-- 9. Make `shalek2013` project
-```
-mkdir -p ~/projects/shalek2013/raw_data ~/projects/shalek2013/processed_data ~/projects/shalek2013/scripts
-```
-- 10. Download `shalek2013` data subset of just chr11 for one sample
-```
-cd ~/projects/shalek2013/raw_data
-scp obotvinnik@tscc.sdsc.edu:/home/obotvinnik/projects/shalek2013/processed_data/S10.chr11.R1.fastq .
-scp obotvinnik@tscc.sdsc.edu:/home/obotvinnik/projects/shalek2013/processed_data/S10.chr11.R2.fastq .
 ```
