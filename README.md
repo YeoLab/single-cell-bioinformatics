@@ -38,11 +38,11 @@ cd single-cell-bioinformatics
 ```
 * 4. Create a new environment with the necessary packages
 ```
-conda create --yes -n single-cell-bioinformatcs --file conda_requirements.txt
+conda create --yes -n single-cell-bioinformatics --file conda_requirements.txt
 ```
 * 5. Activate the environment
 ```
-source activate single-cell-bioinformatcs  # On windows, do "activate single-cell-bioinformatcs"
+source activate single-cell-bioinformatics  # On windows, do "activate single-cell-bioinformatics"
 ```
 * 6. Install the remaiing requirements
 ```
