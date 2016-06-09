@@ -3,5 +3,4 @@ seaborn
 patsy
 ipywidgets==4.1.0
 GPy
-goatools
 git+git://github.com/olgabot/goatools.git
