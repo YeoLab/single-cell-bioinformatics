@@ -3,4 +3,6 @@ seaborn
 patsy
 ipywidgets==4.1.0
 GPy
+# Need to install these github packages for Python3 compatibility
 git+git://github.com/olgabot/goatools.git
+git+https://github.com/brentp/fishers_exact_test.git
