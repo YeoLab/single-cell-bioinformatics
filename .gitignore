@@ -70,3 +70,7 @@ target/
 
 # Shalek2013 data
 GSE41265_allGenesTPM.txt*
+
+# Don't save figures made in notebooks directory
+notebooks/*.pdf
+notebooks/*.png
